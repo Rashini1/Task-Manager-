@@ -1,11 +1,8 @@
-import React from 'react'
+import React from 'react';
+import StudentEnrollmentManagement from './components/TaskManager.jsx';
 
-const App = () => {
-  return (
-    <div>
-      <h1></h1>
-    </div>
-  )
+function App() {
+  return <StudentEnrollmentManagement />;
 }
 
-export default App
+export default App;
